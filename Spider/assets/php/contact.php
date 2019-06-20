@@ -1,7 +1,7 @@
 <?php 
 	$errors = '';
 	$limit_size=10000000;
-	$myemail = 'admin@wordpressboss.com'; /*Replace with your email*/
+	$myemail = 'Lauren.Santosuosso@gmail.com'; /*Replace with your email*/
 	if(empty($_POST['name'])  ||
 	   empty($_POST['email']) ||
 	   empty($_POST['message']))
