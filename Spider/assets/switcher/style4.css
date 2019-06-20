@@ -1,0 +1,31 @@
+#style-switcher h2 a {
+    background: #00B6F9 none repeat scroll 0 0
+}
+
+
+
+
+.logo a, .header-text.text-center p, .single-service i, .single-project-complete h2, .mainmenu .navbar-nav li a:hover{
+	color: #00B6F9;
+}
+
+.toggle-btn .icon-bar, .section-title h2::before, .about-text ul li, .single-service h2::before, .single-resume h3::after, .single-testimonial h2::before, .resume-right::before, .loader div {
+	background-color: #00B6F9;
+}
+
+.single-resume h3::before {
+	border: 2px solid #00B6F9;
+}
+
+ul.work li.active, ul.work li:hover, .contact-form input[type="submit"] {
+	border: 1px solid #00B6F9;
+	background: #00B6F9;
+}
+ul.work li {
+	border: 1px solid #00B6F9;
+}
+
+.contact-form input[type="submit"]:hover {
+	border: 1px solid #00B6F9;
+	color: #00B6F9;
+}
