@@ -1,0 +1,12 @@
+{
+  "name": "SpiderPortfolio",
+  "version": "1.0.0",
+  "description": "professional portfolio",
+  "main": "index.js",
+  "repository": "https://github.com/LaurenSantos23/Professional_Portfolio.git",
+  "author": "Lauren Santosuosso <Lauren.Santosuosso@yahoo.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
