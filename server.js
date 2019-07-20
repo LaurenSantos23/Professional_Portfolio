@@ -1,27 +1,27 @@
 // DEPENDENCIES
 var express = require("express");
+var path = require('path');
 
 
 // EXPRESS CONFIGURATION
 
 var app = express();
+
+//Setting port to 8080
+
 var PORT = process.env.PORT || 8080;
 
-// express.json and express.urlEncoded make it easy for our server to interpret data sent to it.
-// The code below is pretty standard.
+//Sets up Express app to handle data parsing
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 // ROUTER
+// The below points server to "route" file
+require("./routing/htmlRoutes")(app);
 
-// The below points our server to a series of "route" files.
-// These routes give our server a "map" of how to respond when users visit or request data from various URLs.
-// ================================================================================
-// require("./Spider/assets/index.html")(app);
-// ==============================================================================
+
 // LISTENER
-// The below code effectively "starts" our server
-// ==============================================================================
 app.listen(PORT, function() {
   console.log("App listening on PORT: " + PORT);
 });
+
